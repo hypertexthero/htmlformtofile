@@ -48,6 +48,7 @@
         var textToSave =
           '---\n' +
           'title: ' + document.getElementById('title').value + '\n' + // =title
+          'location: ' + document.getElementById('location').value + '\n' + // =location
           'date: ' + today + '\n' + // =date - automatically puts today's date
           'senses: ' + document.getElementById('senses').value + '\n' + // =senses - select menu
           'tags: ' + '\n- ' + document.getElementById('tags').value.replace(/,\s/g, "\n- ") + '\n' + 
@@ -86,6 +87,13 @@
     <label for="title">
       <i>Title</i> <!-- =title - input example -->
       <input id="title" size="40" placeholder="Title">
+    </label>
+    
+    <br>
+    
+    <label for="title">
+      <i>Location</i> <!-- =location - input example -->
+      <input id="location" size="40" placeholder="Location">
     </label>
     
     <input type="hidden" id="date" size="40"> <!-- =date - hidden input example (automatically populated with current date in yyyy-mm-dd format) -->

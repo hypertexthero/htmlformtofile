@@ -1,5 +1,7 @@
 # HTML Form to File.txt
 
+<a href="https://raw.githubusercontent.com/hypertexthero/htmlformtofile/master/index.html"><img src="html-js-form-to-file.png" alt="Html Js Form To File" width="400px"></a>
+
 HTML/JavaScript form that saves user input into a text file in Markdown format with YAML front matter for use on your local computer. Use to [quickly create a post for publishing](http://simongriffee.com/code/form-to-txt/) with a static website generator such as [Hugo](http://gohugo.io/) or [Jekyll](http://jekyllrb.com/). Based on [this code](https://thiscouldbebetter.wordpress.com/2012/12/18/loading-editing-and-saving-a-text-file-in-html5-using-javascrip/ "Loading, Editing, and Saving a Text File in HTML5 Using JavaScript").
 
 To use it yourself: 
