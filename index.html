@@ -55,7 +55,8 @@
             // =tags
             // The replace() bit above converts 'tag,tag' to '- tag\n- tag\n' with regular expressions
             // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
-          '---\n';
+          '---\n' + '\n' + 
+          document.getElementById('content').value // =content;
 
         var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
         var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
@@ -115,9 +116,16 @@
     
     <label for="tags">
       <i>Tags</i>  <!-- =tags textarea example -->
-      <textarea id="tags" cols="40" rows="10" placeholder="tag, tag, tag"></textarea>
+      <textarea id="tags" cols="40" rows="3" placeholder="tag, tag, tag"></textarea>
     </label>
     
+    <br>
+    
+    <label for="content">
+    <i>Content</i>  <!-- =content textarea example -->
+    <textarea id="content" cols="40" rows="10" placeholder="Write something."></textarea>
+    </label>
+
     <br>
     
     <label for="filename">
