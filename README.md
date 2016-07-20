@@ -14,8 +14,9 @@ I have tested the script on Firefox on Mac OS.
 
 ## Nota Bene 
 
-The script also also works on Chrome, except that the autocomplete doesn't seem to work unless the form fields are wrapped in a form tag with the autocomplete attribute (`<form autocomplete="on">…</form>`), and when I do this the entire form disappears in Firefox. I'm still investigating this, and if you have any tips, I'm all ears and appreciate pull requests.
+The script also works on Chrome, butthat the autocomplete doesn't seem to work unless the form fields are wrapped in form tags with the autocomplete attribute (`<form autocomplete="on">…</form>`), and when I do this the entire form disappears in Firefox. I'm still investigating, and if you have any tips, I'm all ears and appreciate pull requests.
 
 ## Would Be Nice To Have Eventually
 
-* Live Markdown preview
+* Slugged URLs in URL fields generated from the title.
+* Live Markdown preview.
