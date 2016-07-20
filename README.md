@@ -7,10 +7,10 @@ HTML/JavaScript form that saves user input into a text file in Markdown format w
 To use it yourself: 
 
 1. Download and save [index.html](https://raw.githubusercontent.com/hypertexthero/htmlformtofile/master/index.html) to your desktop or any location on your computer.
-2. If you like, edit the file to add your own front matter fields. This involves modifying the JavaScript and HTML code and comments indicating these fields are present in the file.
-3. Open `index.html` locally with your web browser, fill in the form fields and click **Save To File**. You can also put the file on your web server so you can access it from any computer.
+2. If you like, edit the file to add your own front matter fields. This involves modifying the JavaScript and HTML code and comments indicating these fields are present.
+3. Open `index.html` locally with your web browser fill in the form fields and click **Save To File**. You can also put the file on your web server so you can access it from any computer.
 
-I have tested the script on Firefox on Mac OS.
+I have naively tested the script on Firefox on Mac OS.
 
 ## Nota Bene 
 
