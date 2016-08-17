@@ -14,7 +14,7 @@ I have naively tested the script on Firefox on Mac OS.
 
 ## Nota Bene 
 
-The script also works on Chrome, butthat the autocomplete doesn't seem to work unless the form fields are wrapped in form tags with the autocomplete attribute (`<form autocomplete="on">…</form>`), and when I do this the entire form disappears in Firefox. I'm still investigating, and if you have any tips, I'm all ears and appreciate pull requests.
+The script also works on Chrome, but the autocomplete doesn't seem to work unless the form fields are wrapped in form tags with the autocomplete attribute (`<form autocomplete="on">…</form>`), and when I do this the entire form disappears in Firefox. I'm still investigating, and if you have any tips, I'm all ears and appreciate pull requests.
 
 ## Would Be Nice To Have Eventually
 
