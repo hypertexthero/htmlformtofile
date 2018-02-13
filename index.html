@@ -11,11 +11,11 @@
     body {font-family:verdana, sans-serif; color:#666; background:#fafafa; padding:20px; text-align:center;}
     #page {text-align:left; max-width:600px; margin:0 auto;} 
     h1 {font-size:16px; font-weight:normal; text-align:center;}
-    label {font-size:12px;}
+    label {font-size:16px;}
     label i {font-style:normal; display:inline-block; text-align:right; width:100px;}
     label textarea {vertical-align:top;}
     button {margin-left:105px; padding:5px; margin-top:5px;}
-    input, textarea {width:400px; font-size:14px; font-family: courier, "courier new", monospace; margin:0 0 5px 0; padding:5px; border:1px solid #eee;}
+    input, textarea {width:400px; font-size:16px; font-family: courier, "courier new", monospace; margin:0 0 5px 0; padding:5px; border:1px solid #eee;}
     select {margin:0 0 5px 0;}
     @media (min-width:300px) and (max-width: 768px) {
       input, textarea {width:100%;}
@@ -49,7 +49,7 @@
           '---\n'+
           'title: ' + document.getElementById('title').value + '\n' + // =title
           'location: ' + document.getElementById('location').value + '\n' + // =location
-          'date: ' + today + '\n' + // =date - automatically puts today's date
+          'date: ' + today + '\n' + // =date - automatically puts today's date =todo: fix bug allowing going over 60 seconds, i.e. 61 seconds
           'senses: ' + document.getElementById('senses').value + '\n' + // =senses - select menu
           'tags: ' + '\n- ' + document.getElementById('tags').value.replace(/,\s/g, "\n- ") + '\n' + 
             // =tags
