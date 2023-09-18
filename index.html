@@ -138,5 +138,27 @@
     </button>
     
   </div>
+  <script type="text/javascript">
+    // 'slugify' url dynamically from typed title text
+    // https://jasonwatmore.com/vanilla-js-slugify-a-string-in-javascript
+    const title = document.querySelector('#title');
+    const slug = document.querySelector('#slug');
+    title.onkeyup = () => {
+        slug.value = slugify(title.value);
+    };
+    function slugify(input) {
+        if (!input)
+            return '';
+        // make lower case and trim
+        var slug = input.toLowerCase().trim();
+        // remove accents from charaters
+        slug = slug.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        // replace invalid chars with spaces
+        slug = slug.replace(/[^a-z0-9\s-]/g, ' ').trim();
+        // replace multiple spaces or hyphens with a single hyphen
+        slug = slug.replace(/[\s-]+/g, '-');
+        return slug;
+    }
+  </script>
 </body>
 </html>
