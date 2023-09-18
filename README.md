@@ -18,5 +18,4 @@ The script also works on Chrome, but the autocomplete doesn't seem to work unles
 
 ## Would Be Nice To Have Eventually
 
-* Slugged URLs in URL fields generated from the title.
 * Live Markdown preview.
